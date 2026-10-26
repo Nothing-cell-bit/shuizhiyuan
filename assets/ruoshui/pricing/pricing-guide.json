@@ -1,0 +1,176 @@
+{
+  "brand": "若水汇",
+  "date": "2026-10-24",
+  "currency": "CNY",
+  "status": "零售价按用户确认的定价表展示；尚未开放购买",
+  "assumptions": [
+    "饮用水330 mL，三款同价。",
+    "爽肤水150 mL，面膜5片装。未指定面膜单片容量。",
+    "本次确认范围为八项实体产品与套装零售价。",
+    "实体产品运费另计；山庄体验仍为前次构想参考，未纳入本次定价确认。"
+  ],
+  "products": [
+    {
+      "id": "water",
+      "name": "若水汇 · 西湖·虎跑泉",
+      "spec": "330 mL＋小卡 1 枚",
+      "price": 28,
+      "unit": "套",
+      "baseWithoutCard": 12
+    },
+    {
+      "id": "qiandao",
+      "name": "若水汇 · 千岛·源水",
+      "spec": "330 mL＋小卡 1 枚",
+      "price": 28,
+      "unit": "套",
+      "baseWithoutCard": 12
+    },
+    {
+      "id": "jingshan",
+      "name": "若水汇 · 径山·龙泉",
+      "spec": "330 mL＋小卡 1 枚",
+      "price": 28,
+      "unit": "套",
+      "baseWithoutCard": 12
+    },
+    {
+      "id": "toner",
+      "name": "若水汇 · 爽肤水",
+      "spec": "150 mL",
+      "price": 128,
+      "unit": "瓶"
+    },
+    {
+      "id": "mask",
+      "name": "若水汇 · 面膜",
+      "spec": "5 片装",
+      "price": 59,
+      "unit": "盒"
+    },
+    {
+      "id": "cards",
+      "name": "若水汇 · 杭城三泉小卡",
+      "spec": "三款各 1 枚 · 含流苏",
+      "price": 48,
+      "unit": "套"
+    }
+  ],
+  "bundles": [
+    {
+      "id": "water-gift",
+      "name": "三泉文旅礼盒",
+      "content": "三款水各1瓶＋三枚小卡＋礼盒",
+      "price": 88,
+      "unit": "盒",
+      "note": "含礼盒包装，单瓶带卡合计84元，礼盒溢价4元。"
+    },
+    {
+      "id": "skincare-set",
+      "name": "若水日常护理套装",
+      "content": "爽肤水150mL＋面膜5片",
+      "price": 168,
+      "unit": "套",
+      "separateTotal": 187,
+      "saving": 19
+    },
+    {
+      "id": "full-gift",
+      "name": "若水汇山水礼遇套装",
+      "content": "三泉文旅礼盒＋爽肤水150mL＋面膜5片",
+      "price": 258,
+      "unit": "套",
+      "separateTotal": 275,
+      "saving": 17
+    }
+  ],
+  "experiences": [
+    {
+      "id": "spa-entry",
+      "name": "水疗区日间体验",
+      "spec": "1人 · 2小时；泡池、休息区与茶饮",
+      "price": 128,
+      "unit": "人"
+    },
+    {
+      "id": "spa-care",
+      "name": "SPA护理",
+      "spec": "1人 · 60分钟；护理内容待运营方案确认，不含泡池门票",
+      "price": 398,
+      "unit": "人"
+    },
+    {
+      "id": "resort-stay",
+      "name": "山庄双人山景客房",
+      "spec": "周日至周四1间1晚，双人早餐；不含节假日，不含SPA护理",
+      "price": 899,
+      "unit": "间夜"
+    },
+    {
+      "id": "resort-retreat",
+      "name": "双人山居体验套装",
+      "spec": "周日至周四1间1晚＋双早＋2张水疗区日间票＋三泉文旅礼盒",
+      "price": 1199,
+      "unit": "套",
+      "separateTotal": 1243,
+      "saving": 44
+    }
+  ],
+  "references": [
+    {
+      "title": "用户提供并确认的产品定价表",
+      "date": "2026-10-24",
+      "scope": "八项实体产品及套装的规格、零售价"
+    }
+  ],
+  "retailPriceList": [
+    {
+      "name": "饮用水基础装",
+      "spec": "330 mL",
+      "price": 12,
+      "unit": "瓶"
+    },
+    {
+      "name": "饮用水＋流苏小卡",
+      "spec": "330 mL＋流苏小卡",
+      "price": 28,
+      "unit": "套"
+    },
+    {
+      "name": "爽肤水",
+      "spec": "150 mL",
+      "price": 128,
+      "unit": "瓶"
+    },
+    {
+      "name": "面膜",
+      "spec": "5 片装",
+      "price": 59,
+      "unit": "盒"
+    },
+    {
+      "name": "三款流苏小卡",
+      "spec": "三款各 1 枚",
+      "price": 48,
+      "unit": "套"
+    },
+    {
+      "name": "三泉文旅礼盒",
+      "spec": "三款水＋三枚小卡＋礼盒",
+      "price": 88,
+      "unit": "盒"
+    },
+    {
+      "name": "日常护理套装",
+      "spec": "爽肤水 150 mL＋面膜 5 片",
+      "price": 168,
+      "unit": "套"
+    },
+    {
+      "name": "山水礼遇套装",
+      "spec": "三泉文旅礼盒＋爽肤水＋面膜 5 片",
+      "price": 258,
+      "unit": "套"
+    }
+  ]
+}
